@@ -15,7 +15,7 @@ Symptom Checker is formed on Django Python Framework. We used Celery with Redis 
 Follow the following steps to set this up locally.
 
 1. Clone this repository with command:-\
-   $git clone https://code.jtg.tools/inductions/induction-2021/induction-jan-2021/symptom-checker.git
+   $git clone https://github.com/faizalsha/symptom-checker.git
 
 2. Create virtual environment for the project:\
    $python3 -m venv env
