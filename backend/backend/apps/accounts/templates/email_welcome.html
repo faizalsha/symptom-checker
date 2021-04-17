@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Symptom Checker</title>
+</head>
+<body>
+    <h1>Hii {{name}},</h1>
+
+    <h3>Welcome to Symptom-Checker</h3>
+
+    <p>Please fill the following questionnaires:</p>
+    <ol>
+        {% for link in links %}
+            <li><a href="{{link.0}}">{{link.1}}</a></li>
+        {% endfor %}
+    </ol>
+</body>
+</html>
