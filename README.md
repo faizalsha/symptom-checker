@@ -6,6 +6,8 @@ Symptom Checker is a platform which lets user to evaluate their health statuses 
 
 Symptom checker allows Companies to become part of this platform and let them evaluate the health status of their employees. They can select the questionnaires which are available on the platform to be used in their companies.
 
+[Webapp (React) repository link](https://github.com/faizalsha/symptom-checker-webapp)
+
 ## Technologies Used.
 
 Symptom Checker is formed on Django Python Framework. We used Celery with Redis for handling Async Tasks.
